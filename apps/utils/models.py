@@ -12,8 +12,8 @@ class BaseModel(models.Model):
          - updated: modification date.
     """
 
-    created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(verbose_name='fecha creación', auto_now_add=True)
+    updated = models.DateTimeField(verbose_name='fecha modificación', auto_now=True)
 
     class Meta:
         abstract = True
