@@ -17,6 +17,8 @@ Para el desligue local, se recomienda:
 4. Ejecutar **migraciones** pendientes de los modelos `python manage.py migrate`.
 5. Por último, ejecutar el **servidor local** con `python manage.py runserver`.
 
+Abra un navegador web y acceda a la siguiente URL `http://localhost:8000/api` que mostrará la API navegable provista por Django REST framework.
+
 ## API endpoints
 
 El proyecto cuenta con los siguientes *endpoints*:
